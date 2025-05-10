@@ -231,7 +231,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - StackYL
 
 env:
   TZ: America/New_York
