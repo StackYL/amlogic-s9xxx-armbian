@@ -375,7 +375,7 @@ jobs:
           kernel_usage: ${{ inputs.kernel_usage }}
           armbian_fstype: ${{ inputs.armbian_fstype }}
           builder_name: ${{ inputs.builder_name }}
-          kernel_sign: ${{ inputs.builder_name }}
+          kernel_sign: -${{ inputs.builder_name }}
 
       - name: Upload Rebuild image to Release
         uses: ncipollo/release-action@main
