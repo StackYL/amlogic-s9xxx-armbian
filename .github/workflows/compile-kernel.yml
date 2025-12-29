@@ -80,7 +80,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -StackYL
 
 env:
   TZ: Etc/UTC
